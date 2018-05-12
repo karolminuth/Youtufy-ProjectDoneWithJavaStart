@@ -1,0 +1,162 @@
+/* t³o dla wspólnych klas */
+.vbox,
+.hbox,
+.list-view{
+    -fx-background-color: #1d1d1d;
+}
+ 
+/* CONTROL-PANE */
+/* t³o przycisków i wspólne ustawienie wype³nienia */
+.button,
+.toggle-button {
+    -fx-background-color: #1d1d1d;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 100% 100%;
+}
+ 
+/* ustawienie grafik t³a przycisków */
+#play-button {
+    -fx-background-image: url("../res/Play.png");
+}
+ 
+#previous-button {
+    -fx-background-image: url("../res/Prev.png");
+}
+ 
+#next-button {
+    -fx-background-image: url("../res/Next.png");
+}
+ 
+/* kolor przycisków po najechaniu */
+#previous-button:hover,
+#next-button:hover,
+#play-button:hover,
+#play-button:selected {
+    -fx-background-color: #81b71a;
+}
+ 
+/* SEARCH - PANE */
+/* kolor paska wyszukiwania */
+#search-text-field {
+    -fx-background-color: #f0f0f0;
+}
+ 
+/* kolor po najechaniu na wynik wyszukiwania */
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:hover {
+        -fx-background-color: #81b71a;
+}
+ 
+/* CONTENT_PANE */
+.web-view .scroll-bar:vertical .increment-arrow,
+.web-view .scroll-bar:vertical .decrement-arrow,
+.web-view .scroll-bar:vertical .increment-button,
+.web-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 1;
+}
+ 
+.web-view,
+.web-view .scroll-bar:vertical { 
+    -fx-blend-mode: darken;
+}
+ 
+/* t³o tabeli */
+.table-view,
+.table-view .column-header-background,
+.table-view .column-header-background .nested-column-header .table-column,
+.table-view .column-header-background .filler,
+.table-view .column-header-background .show-hide-columns-button {
+    -fx-background-color: transparent;
+}
+ 
+/* efekty do nag³ówka tabeli */
+.table-view .column-header .label {
+    -fx-text-fill: #f0f0f0;
+    -fx-font-weight: bold;
+}
+ 
+.table-view .column-header {
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #81b71a;
+    -fx-border-insets: 0px 30px 1px 0px;
+}
+ 
+/* t³o komórki */
+.table-view .table-row-cell {
+    -fx-background-color: #1d1d1d;
+}
+ 
+/* kolor tekstu komórek */
+.table-view:row-selection .virtual-flow .clipped-container .sheet .table-row-cell:filled .table-column:filled {
+    -fx-text-fill: #f0f0f0;
+}
+ 
+/* kolor komórki po najechaniu i klikniêciu */
+.table-view:row-selection .virtual-flow .clipped-container .sheet .table-row-cell:filled:hover,
+.table-view:row-selection .virtual-flow .clipped-container .sheet .table-row-cell:filled:selected {
+    -fx-background-color: #81b71a;
+}
+ 
+/* kolor ramki komórki */
+.table-view:row-selection:constrained-resize .virtual-flow .clipped-container .sheet .table-row-cell:filled .table-column:filled {
+    -fx-border-color: transparent;
+}
+ 
+/* scroll - ukrycie */
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .track,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .thumb,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .decrement-button, 
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .increment-button, 
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .track,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .thumb,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .decrement-button, 
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .decrement-button .decrement-arrow,
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .increment-button, 
+.table-view:row-selection:constrained-resize .virtual-flow .scroll-bar:horizontal .increment-button .increment-arrow,
+.table-view:row-selection:constrained-resize .virtual-flow .corner {
+    -fx-blend-mode: darken;
+}
+ 
+/* SEARCH_PANE */
+.list-view,
+.list-view .virtual-flow .clipped-container .sheet {
+    -fx-background-color: #1d1d1d;
+}
+ 
+/* kolor t³a i czcionki wierszy */
+.list-view .virtual-flow .clipped-container .sheet .list-cell {
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: #f0f0f0;
+}
+ 
+/* kolor wiersza po najechaniu i klikniêciu */
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:hover,
+.list-view .virtual-flow .clipped-container .sheet .list-cell:filled:selected {
+    -fx-background-color: #81b71a;
+}
+ 
+/* scroll listview - ukrycie */
+.list-view .virtual-flow .scroll-bar:vertical,
+.list-view .virtual-flow .scroll-bar:vertical .track,
+.list-view .virtual-flow .scroll-bar:vertical .thumb,
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button, 
+.list-view .virtual-flow .scroll-bar:vertical .decrement-button .decrement-arrow,
+.list-view .virtual-flow .scroll-bar:vertical .increment-button, 
+.list-view .virtual-flow .scroll-bar:vertical .increment-button .increment-arrow,
+.list-view .virtual-flow .scroll-bar:horizontal,
+.list-view .virtual-flow .scroll-bar:horizontal .track,
+.list-view .virtual-flow .scroll-bar:horizontal .thumb,
+.list-view .virtual-flow .scroll-bar:horizontal .decrement-button, 
+.list-view .virtual-flow .scroll-bar:horizontal .decrement-button .decrement-arrow,
+.list-view .virtual-flow .scroll-bar:horizontal .increment-button, 
+.list-view .virtual-flow .scroll-bar:horizontal .increment-button .increment-arrow,
+.list-view .virtual-flow .corner {
+    -fx-blend-mode: darken;
+}

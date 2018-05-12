@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/fluent-hc-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpcore-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpcore-ab-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpcore-nio-4.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/jsoup-1.10.2.jar" sourcepath="C:/Users/Karol/workspace/Libraries/jsoup-1.10.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/jid3lib-0.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Karol/workspace/Libraries/jsoup-1.10.2-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

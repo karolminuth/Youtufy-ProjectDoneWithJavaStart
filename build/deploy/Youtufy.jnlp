@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Youtufy.jnlp">
+  <information>
+    <title>Youtufy</title>
+    <vendor>Karol Minuth</vendor>
+    <description>Youtufy</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Youtufy.jar" size="35249" download="eager" />
+    <jar href="libs\commons-cli-1.2.jar" size="41123" download="eager" />
+    <jar href="libs\commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="libs\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="libs\fluent-hc-4.5.2.jar" size="31293" download="eager" />
+    <jar href="libs\httpclient-4.5.2.jar" size="736658" download="eager" />
+    <jar href="libs\httpclient-cache-4.5.2.jar" size="158984" download="eager" />
+    <jar href="libs\httpclient-win-4.5.2.jar" size="17362" download="eager" />
+    <jar href="libs\httpcore-4.4.4.jar" size="326724" download="eager" />
+    <jar href="libs\httpcore-4.4.5.jar" size="327373" download="eager" />
+    <jar href="libs\httpcore-ab-4.4.5.jar" size="31382" download="eager" />
+    <jar href="libs\httpcore-nio-4.4.5.jar" size="356201" download="eager" />
+    <jar href="libs\httpmime-4.5.2.jar" size="41029" download="eager" />
+    <jar href="libs\jid3lib-0.5.4.jar" size="192186" download="eager" />
+    <jar href="libs\jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="libs\jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="libs\jsoup-1.10.2-sources.jar" size="168517" download="eager" />
+    <jar href="libs\jsoup-1.10.2.jar" size="350645" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="pl.javastart.youtufy.main.Main"  name="Youtufy" />
+  <update check="background"/>
+</jnlp>

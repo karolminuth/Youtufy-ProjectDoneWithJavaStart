@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+ 
+<BorderPane stylesheets="@style.css" xmlns="http://javafx.com/javafx/8"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.javastart.youtufy.controller.MainController">
+    <left>
+        <fx:include fx:id="searchPane" source="SearchPane.fxml" />
+    </left>
+    <bottom>
+        <fx:include fx:id="controlPane" source="ControlPane.fxml" />
+    </bottom>
+    <center>
+        <fx:include fx:id="contentPane" source="ContentPane.fxml" />
+    </center>
+    <top>
+        <fx:include fx:id="menuPane" source="MenuPane.fxml" />
+    </top>
+</BorderPane>

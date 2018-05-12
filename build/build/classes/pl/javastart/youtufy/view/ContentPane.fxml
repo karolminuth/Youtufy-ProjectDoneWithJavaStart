@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?import java.lang.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+ 
+<VBox styleClass="vbox" xmlns="http://javafx.com/javafx/8"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.javastart.youtufy.controller.ContentPaneController">
+    <children>
+        <WebView id="main-web-view" fx:id="videoWebView"
+            prefHeight="400.0" prefWidth="700.0" VBox.vgrow="ALWAYS" />
+        <TableView id="results-table-view" fx:id="resultTableView"
+            prefHeight="200.0" prefWidth="200.0" VBox.vgrow="NEVER">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </children>
+</VBox>
